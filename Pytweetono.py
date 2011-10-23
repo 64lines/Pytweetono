@@ -20,7 +20,7 @@ import time
 import urllib
 from subprocess import Popen, PIPE
 
-class Pytweetono():
+class Pytweetono:
 	__source = settings.FEED_SOURCE
 	__search_word = settings.SEARCH_WORD
 	
@@ -63,7 +63,7 @@ class Pytweetono():
 			self.show_tweet_notification(avatar_url, author, tweet)
 			time.sleep(settings.SECONDS_BETWEEN_TWEET)
 
-class ExternalApp():
+class ExternalApp:
 	def executeCommand(self, command, args):
 		return Popen([command] + args, stdin=PIPE, stdout=PIPE)
 
