@@ -21,7 +21,7 @@ import urllib
 from subprocess import Popen, PIPE
 
 class Pytweetono:
-	__source = settings.FEED_SOURCE
+	__source = config.FEED_SOURCE
 	__search_word = settings.SEARCH_WORD
 	
 	# List of all tweets with specified word on

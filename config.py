@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # Configuration file
-
+FEED_SOURCE = "http://search.twitter.com/search.atom?%s&%s"
 ONE = 1
 PAGE_RANGE = range(1, 3)
 Q_STRING = "q"
