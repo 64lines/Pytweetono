@@ -8,4 +8,6 @@
 # shows in notifications each certain time.
 ##############################################
 # Date: 22-Oct-2011
+##############################################
+# Depends: unix, notify-send
 
